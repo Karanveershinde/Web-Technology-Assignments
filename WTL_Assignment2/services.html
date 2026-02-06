@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government Services - National Portal of India</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Header -->
+    <div class="top-header">
+        <div class="container">
+            <div class="header-left">
+                <span><i class="fas fa-phone"></i> Helpline: 1800-11-1234</span>
+                <span><i class="fas fa-envelope"></i> support@india.gov.in</span>
+            </div>
+            <div class="header-right">
+                <a href="#">हिंदी</a>
+                <a href="#">Skip to main content</a>
+                <a href="#">Screen Reader</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <img src="Photos/logo.png" alt="Government of India Logo" class="logo">
+                    <div class="logo-text">
+                        <h1>भारत सरकार</h1>
+                        <h2>Government of India</h2>
+                        <p>National Portal of India</p>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <div class="search-box">
+                        <input type="text" placeholder="Search services...">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="accessibility-tools">
+                        <button class="font-size" title="Font Size">A+</button>
+                        <button class="contrast" title="High Contrast"><i class="fas fa-adjust"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li class="dropdown">
+                    <a href="#"><i class="fas fa-building"></i> Ministries <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Ministry of Home Affairs</a></li>
+                        <li><a href="#">Ministry of Finance</a></li>
+                        <li><a href="#">Ministry of Defence</a></li>
+                        <li><a href="#">Ministry of External Affairs</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="services.html" class="active"><i class="fas fa-cogs"></i> Services <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#digital-services">Digital Services</a></li>
+                        <li><a href="#citizen-services">Citizen Services</a></li>
+                        <li><a href="#business-services">Business Services</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="fas fa-newspaper"></i> News</a></li>
+                <li><a href="#"><i class="fas fa-calendar"></i> Events</a></li>
+                <li><a href="#"><i class="fas fa-phone"></i> Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li aria-current="page">Services</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Government Services</h1>
+            <p>Access various government services online for citizens and businesses</p>
+        </div>
+    </section>
+
+    <!-- Service Categories -->
+    <section class="service-categories">
+        <div class="container">
+            <div class="category-tabs">
+                <button class="tab-btn active" data-category="all">All Services</button>
+                <button class="tab-btn" data-category="citizen">Citizen Services</button>
+                <button class="tab-btn" data-category="business">Business Services</button>
+                <button class="tab-btn" data-category="digital">Digital Services</button>
+            </div>
+
+            <div class="services-container">
+                <!-- Citizen Services -->
+                <div class="service-category" id="citizen-services">
+                    <h2><i class="fas fa-users"></i> Citizen Services</h2>
+                    <div class="services-grid">
+                        <div class="service-item" data-category="citizen">
+                            <div class="service-icon">
+                                <i class="fas fa-id-card"></i>
+                            </div>
+                            <div class="service-content">
+                                <h3>Aadhaar Services</h3>
+                                <p>Update demographic details, download Aadhaar, verify authenticity</p>
+                                <ul class="service-features">
+                                    <li>Download e-Aadhaar</li>
+                                    <li>Update mobile/email</li>
+                                    <li>Verify Aadhaar number</li>
+                                    <li>Check enrollment status</li>
+                                </ul>
+                                <div class="service-actions">
+                                    <a href="#" class="btn-primary">Access Service</a>
+                                    <a href="#" class="btn-secondary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-item" data-category="citizen">
+                            <div class="service-icon">
+                                <i class="fas fa-passport"></i>
+                            </div>
+                            <div class="service-content">
+                                <h3>Passport Services</h3>
+                                <p>Apply for new passport, renewal, and track application status</p>
+                                <ul class="service-features">
+                                    <li>Fresh passport application</li>
+                                    <li>Passport renewal</li>
+                                    <li>Track application status</li>
+                                    <li>Schedule appointment</li>
+                                </ul>
+                                <div class="service-actions">
+                                    <a href="#" class="btn-primary">Access Service</a>
+                                    <a href="#" class="btn-secondary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-item" data-category="citizen">
+                            <div class="service-icon">
+                                <i class="fas fa-car"></i>
+                            </div>
+                            <div class="service-content">
+                                <h3>Driving License</h3>
+                                <p>Apply for driving license, renewal, and vehicle registration</p>
+                                <ul class="service-features">
+                                    <li>New DL application</li>
+                                    <li>License renewal</li>
+                                    <li>Vehicle registration</li>
+                                    <li>RC transfer</li>
+                                </ul>
+                                <div class="service-actions">
+                                    <a href="#" class="btn-primary">Access Service</a>
+                                    <a href="#" class="btn-secondary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-item" data-category="citizen">
+                            <div class="service-icon">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <div class="service-content">
+                                <h3>Income Tax Services</h3>
+                                <p>File ITR, check refund status, and manage tax-related services</p>
+                                <ul class="service-features">
+                                    <li>File income tax returns</li>
+                                    <li>Check refund status</li>
+                                    <li>Download Form 16</li>
+                                    <li>PAN card services</li>
+                                </ul>
+                                <div class="service-actions">
+                                    <a href="#" class="btn-primary">Access Service</a>
+                                    <a href="#" class="btn-secondary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Business Services -->
+                <div class="service-category" id="business-services">
+                    <h2><i class="fas fa-briefcase"></i> Business Services</h2>
+                    <div class="services-grid">
+                        <div class="service-item" data-category="business">
+                            <div class="service-icon">
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <div class="service-content">
+                                <h3>Company Registration</h3>
+                                <p>Register new company, LLP, and other business entities</p>
+                                <ul class="service-features">
+                                    <li>Private Limited Company</li>
+                                    <li>Limited Liability Partnership</li>
+                                    <li>One Person Company</li>
+                                    <li>Partnership Firm</li>
+                                </ul>
+                                <div class="service-actions">
+                                    <a href="#" class="btn-primary">Access Service</a>
+                                    <a href="#" class="btn-secondary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-item" data-category="business">
+                            <div class="service-icon">
+                                <i class="fas fa-receipt"></i>
+                            </div>
+                            <div class="service-content">
+                                <h3>GST Services</h3>
+                                <p>GST registration, return filing, and compliance management</p>
+                                <ul class="service-features">
+                                    <li>GST registration</li>
+                                    <li>Return filing</li>
+                                    <li>Invoice management</li>
+                                    <li>Compliance tracking</li>
+                                </ul>
+                                <div class="service-actions">
+                                    <a href="#" class="btn-primary">Access Service</a>
+                                    <a href="#" class="btn-secondary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-item" data-category="business">
+                            <div class="service-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="service-content">
+                                <h3>Trade License</h3>
+                                <p>Apply for trade license and business permits</p>
+                                <ul class="service-features">
+                                    <li>New trade license</li>
+                                    <li>License renewal</li>
+                                    <li>Business permits</li>
+                                    <li>Compliance certificates</li>
+                                </ul>
+                                <div class="service-actions">
+                                    <a href="#" class="btn-primary">Access Service</a>
+                                    <a href="#" class="btn-secondary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-item" data-category="business">
+                            <div class="service-icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <div class="service-content">
+                                <h3>Labor Compliance</h3>
+                                <p>Manage labor law compliance and employee-related services</p>
+                                <ul class="service-features">
+                                    <li>PF registration</li>
+                                    <li>ESI registration</li>
+                                    <li>Labor law compliance</li>
+                                    <li>Contract labor license</li>
+                                </ul>
+                                <div class="service-actions">
+                                    <a href="#" class="btn-primary">Access Service</a>
+                                    <a href="#" class="btn-secondary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Digital Services -->
+                <div class="service-category" id="digital-services">
+                    <h2><i class="fas fa-laptop"></i> Digital Services</h2>
+                    <div class="services-grid">
+                        <div class="service-item" data-category="digital">
+                            <div class="service-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="service-content">
+                                <h3>DigiLocker</h3>
+                                <p>Store and access your documents digitally</p>
+                                <ul class="service-features">
+                                    <li>Digital document storage</li>
+                                    <li>Document sharing</li>
+                                    <li>Verification services</li>
+                                    <li>Mobile app access</li>
+                                </ul>
+                                <div class="service-actions">
+                                    <a href="#" class="btn-primary">Access Service</a>
+                                    <a href="#" class="btn-secondary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-item" data-category="digital">
+                            <div class="service-icon">
+                                <i class="fas fa-signature"></i>
+                            </div>
+                            <div class="service-content">
+                                <h3>Digital Signature</h3>
+                                <p>Apply for and manage digital signature certificates</p>
+                                <ul class="service-features">
+                                    <li>Class 2 certificates</li>
+                                    <li>Class 3 certificates</li>
+                                    <li>Certificate renewal</li>
+                                    <li>Token management</li>
+                                </ul>
+                                <div class="service-actions">
+                                    <a href="#" class="btn-primary">Access Service</a>
+                                    <a href="#" class="btn-secondary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-item" data-category="digital">
+                            <div class="service-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="service-content">
+                                <h3>e-Authentication</h3>
+                                <p>Secure authentication for government services</p>
+                                <ul class="service-features">
+                                    <li>Aadhaar authentication</li>
+                                    <li>OTP verification</li>
+                                    <li>Biometric authentication</li>
+                                    <li>Multi-factor authentication</li>
+                                </ul>
+                                <div class="service-actions">
+                                    <a href="#" class="btn-primary">Access Service</a>
+                                    <a href="#" class="btn-secondary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="service-item" data-category="digital">
+                            <div class="service-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <div class="service-content">
+                                <h3>Cloud Services</h3>
+                                <p>Government cloud infrastructure and services</p>
+                                <ul class="service-features">
+                                    <li>Data storage</li>
+                                    <li>Application hosting</li>
+                                    <li>Backup services</li>
+                                    <li>Disaster recovery</li>
+                                </ul>
+                                <div class="service-actions">
+                                    <a href="#" class="btn-primary">Access Service</a>
+                                    <a href="#" class="btn-secondary">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Statistics -->
+    <section class="service-stats">
+        <div class="container">
+            <h2>Service Statistics</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">50M+</div>
+                    <div class="stat-label">Services Delivered</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">200+</div>
+                    <div class="stat-label">Digital Services</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">99.9%</div>
+                    <div class="stat-label">Uptime</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Support</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Help Section -->
+    <section class="help-section">
+        <div class="container">
+            <div class="help-content">
+                <div class="help-text">
+                    <h2>Need Help?</h2>
+                    <p>Our support team is available 24/7 to assist you with any service-related queries.</p>
+                    <div class="help-options">
+                        <a href="#" class="help-option">
+                            <i class="fas fa-phone"></i>
+                            <span>Call Support</span>
+                        </a>
+                        <a href="#" class="help-option">
+                            <i class="fas fa-comments"></i>
+                            <span>Live Chat</span>
+                        </a>
+                        <a href="#" class="help-option">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email Support</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="help-image">
+                    <i class="fas fa-headset"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">About India</a></li>
+                        <li><a href="#">Government</a></li>
+                        <li><a href="#">Documents</a></li>
+                        <li><a href="#">Forms</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Citizen Services</a></li>
+                        <li><a href="#">Business Services</a></li>
+                        <li><a href="#">Online Services</a></li>
+                        <li><a href="#">Mobile Apps</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Help & Support</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Feedback</a></li>
+                        <li><a href="#">Grievances</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-info">
+                    <p>&copy; 2024 Government of India. All rights reserved.</p>
+                    <div class="footer-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Use</a>
+                        <a href="#">Accessibility</a>
+                        <a href="#">Site Map</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="services.js"></script>
+</body>
+</html>
